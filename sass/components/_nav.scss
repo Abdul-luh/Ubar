@@ -1,0 +1,12 @@
+@use "../color" as *;
+@use "../font" as *;
+nav{
+    background-color: $pryNavBgColor;
+    .ubar{
+        @include ubarFont;
+    }
+}
+li:hover{
+    background-color: darkgray;
+    border-radius: 20px;
+}
